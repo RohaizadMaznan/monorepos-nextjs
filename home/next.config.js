@@ -15,6 +15,10 @@ module.exports = {
         source: '/blog/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
       },
+      {
+        source: '/contact',
+        destination: `${BLOG_URL}/contact`,
+      },
     ]
   },
 }
