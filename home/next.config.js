@@ -1,4 +1,4 @@
-const { BLOG_URL } = process.env
+const { BLOG_URL } = "https://monorepos-nextjs-n0fq2jcee-rohaizadmaznan.vercel.app/"
 const { HOME_URL } = process.env
 const { CONTACT_URL } = process.env
 
