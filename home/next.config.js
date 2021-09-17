@@ -1,4 +1,5 @@
 const { BLOG_URL } = process.env
+const { CONTACT_URL } = process.env
 
 module.exports = {
   async rewrites() {
@@ -14,6 +15,10 @@ module.exports = {
       {
         source: '/blog/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
+      },
+      {
+        source: '/contact*',
+        destination: `${CONTACT_URL}/contact`,
       }
     ]
   },
