@@ -1,4 +1,4 @@
-const { BLOG_URL } = "https://monorepos-nextjs-n0fq2jcee-rohaizadmaznan.vercel.app/"
+const { BLOG_URL } = process.env
 
 module.exports = {
   async rewrites() {
@@ -14,11 +14,7 @@ module.exports = {
       {
         source: '/blog/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
-      },
-      {
-        source: '/contact',
-        destination: `${BLOG_URL}/contact`,
-      },
+      }
     ]
   },
 }
