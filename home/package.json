@@ -6,11 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "next": "latest",
-=======
     "next": "11.1.2",
->>>>>>> 85ea335901b01851938db5d87515efbefb255b52
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
