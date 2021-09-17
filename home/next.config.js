@@ -17,7 +17,7 @@ module.exports = {
         destination: `${BLOG_URL}/blog/:path*`,
       },
       {
-        source: '/contact*',
+        source: '/contact',
         destination: `${CONTACT_URL}/contact`,
       }
     ]
