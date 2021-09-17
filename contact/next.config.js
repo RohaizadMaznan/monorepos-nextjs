@@ -1,4 +1,3 @@
 module.exports = {
-    basePath: '/contact',
-  }
-  
+  basePath: "/contact",
+};
